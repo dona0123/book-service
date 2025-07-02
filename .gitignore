@@ -1,0 +1,66 @@
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+### Build ###
+/build/
+!/src/main/**/build/
+!/src/test/**/build/
+
+### Gradle ###
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+build/
+**/build/
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+!/src/main/**/out/
+!/src/test/**/out/
+
+# IntelliJ specific caches/logs
+.idea/
+*.iml
+*.ipr
+out/
+.idea_modules/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf/
+
+### Spring Tool Suite ###
+.apt_generated/
+.factorypath
+.project
+.classpath
+.settings/
+.springBeans/
+.sts4-cache/
+
+### NetBeans ###
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### VSCode ###
+.vscode/
+
+### Logs ###
+*.log
+logs/
+*.pid
+
+### OS generated ###
+.DS_Store
+Thumbs.db
