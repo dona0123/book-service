@@ -38,6 +38,7 @@ public class BookApiController {
             @PathVariable Long id
     ){
         return bookService.findById(id);
+        // 수정
     }
 
 }
